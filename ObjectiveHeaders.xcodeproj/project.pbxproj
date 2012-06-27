@@ -14,7 +14,6 @@
 		C36C8BFC159B122C006597FC /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		C36C8BFE159B122C006597FC /* class-dump-z */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "class-dump-z"; sourceTree = "<group>"; };
 		C36C8BFF159B122C006597FC /* generate_dump.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generate_dump.sh; sourceTree = "<group>"; };
-		C36C8C00159B122C006597FC /* test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = test.sh; sourceTree = "<group>"; };
 		C36C8C01159B122C006597FC /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		C36C8C03159B122C006597FC /* class-dump-z.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "class-dump-z.exe"; sourceTree = "<group>"; };
 		C36C8C05159B1268006597FC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -65,7 +64,6 @@
 			children = (
 				C36C8BFE159B122C006597FC /* class-dump-z */,
 				C36C8BFF159B122C006597FC /* generate_dump.sh */,
-				C36C8C00159B122C006597FC /* test.sh */,
 			);
 			path = mac_x86;
 			sourceTree = "<group>";

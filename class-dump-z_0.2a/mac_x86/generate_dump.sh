@@ -31,7 +31,6 @@ if [ ! -d $1 ]
 		echo ""
 		exit
 fi
-exit
 
 #FPATH=/Applications/Xcode45-DP2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/
 
