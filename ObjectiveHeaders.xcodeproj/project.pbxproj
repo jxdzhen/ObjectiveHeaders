@@ -7,15 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C36C8BF7159B122C006597FC /* class-dump-z */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "class-dump-z"; sourceTree = "<group>"; };
-		C36C8BF8159B122C006597FC /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		C36C8BF9159B122C006597FC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C36C8BFB159B122C006597FC /* class-dump-z */ = {isa = PBXFileReference; lastKnownFileType = file; path = "class-dump-z"; sourceTree = "<group>"; };
-		C36C8BFC159B122C006597FC /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		C36C8BFE159B122C006597FC /* class-dump-z */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "class-dump-z"; sourceTree = "<group>"; };
-		C36C8BFF159B122C006597FC /* generate_dump.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generate_dump.sh; sourceTree = "<group>"; };
 		C36C8C01159B122C006597FC /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		C36C8C03159B122C006597FC /* class-dump-z.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "class-dump-z.exe"; sourceTree = "<group>"; };
 		C36C8C05159B1268006597FC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		C36C8C09159B3297006597FC /* Accelerate-Structs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Accelerate-Structs.h"; sourceTree = "<group>"; };
 		C36C8C0A159B3297006597FC /* Accelerate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Accelerate.h; sourceTree = "<group>"; };
@@ -4294,6 +4287,8 @@
 		C36C9CEA159B3299006597FC /* XXUnknownSuperclass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXUnknownSuperclass.h; sourceTree = "<group>"; };
 		C36C9CEC159B3299006597FC /* VideoToolbox-Structs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoToolbox-Structs.h"; sourceTree = "<group>"; };
 		C36C9CED159B3299006597FC /* VideoToolbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoToolbox.h; sourceTree = "<group>"; };
+		C36C9CEE159B3498006597FC /* class-dump-z */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "class-dump-z"; sourceTree = "<group>"; };
+		C36C9CEF159B3498006597FC /* generate_dump.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generate_dump.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -4309,49 +4304,12 @@
 		C36C8BF5159B122C006597FC /* class-dump-z_0.2a */ = {
 			isa = PBXGroup;
 			children = (
-				C36C8BF6159B122C006597FC /* iphone_armv6 */,
+				C36C9CEE159B3498006597FC /* class-dump-z */,
+				C36C9CEF159B3498006597FC /* generate_dump.sh */,
 				C36C8BF9159B122C006597FC /* LICENSE */,
-				C36C8BFA159B122C006597FC /* linux_x86 */,
-				C36C8BFD159B122C006597FC /* mac_x86 */,
 				C36C8C01159B122C006597FC /* README */,
-				C36C8C02159B122C006597FC /* win_x86 */,
 			);
 			path = "class-dump-z_0.2a";
-			sourceTree = "<group>";
-		};
-		C36C8BF6159B122C006597FC /* iphone_armv6 */ = {
-			isa = PBXGroup;
-			children = (
-				C36C8BF7159B122C006597FC /* class-dump-z */,
-				C36C8BF8159B122C006597FC /* README */,
-			);
-			path = iphone_armv6;
-			sourceTree = "<group>";
-		};
-		C36C8BFA159B122C006597FC /* linux_x86 */ = {
-			isa = PBXGroup;
-			children = (
-				C36C8BFB159B122C006597FC /* class-dump-z */,
-				C36C8BFC159B122C006597FC /* README */,
-			);
-			path = linux_x86;
-			sourceTree = "<group>";
-		};
-		C36C8BFD159B122C006597FC /* mac_x86 */ = {
-			isa = PBXGroup;
-			children = (
-				C36C8BFE159B122C006597FC /* class-dump-z */,
-				C36C8BFF159B122C006597FC /* generate_dump.sh */,
-			);
-			path = mac_x86;
-			sourceTree = "<group>";
-		};
-		C36C8C02159B122C006597FC /* win_x86 */ = {
-			isa = PBXGroup;
-			children = (
-				C36C8C03159B122C006597FC /* class-dump-z.exe */,
-			);
-			path = win_x86;
 			sourceTree = "<group>";
 		};
 		C36C8C06159B3297006597FC /* Headers */ = {
